@@ -1,0 +1,19 @@
+class Cmath
+{
+   public static void power(int x,int y)
+   {
+      int sum = 1;
+      for(int i = 1;i <= y;i++)
+         sum*=x;
+      System.out.println(sum);
+   }
+}
+
+public class HW09_07
+{
+   public static void main(String args[])
+   {
+      Cmath.power(2,5);
+      Cmath.power(3,2);
+   }
+}
